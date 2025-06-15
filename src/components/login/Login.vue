@@ -30,10 +30,10 @@ function login() {
             <h1>修改后的电商后台管理系统</h1>
         </div>
         <div class="input">
-            <el-input v-model="name" prefix-icon="User" placeholder="请输入你的用户名"></el-input>
+            <el-input v-model="name" prefix-icon="User" placeholder="请输入用户名"></el-input>
         </div>
         <div class="input">
-            <el-input v-model="password" prefix-icon="Lock" placeholder="请输入你的密码" auto-complete="new-password" show-password></el-input>
+            <el-input v-model="password" prefix-icon="Lock" placeholder="请输入密码" auto-complete="new-password" show-password></el-input>
         </div>
         <div class="input">
             <el-button @click="login" style="width:500px" type="primary" :disabled="disabled">登录</el-button>
@@ -41,20 +41,24 @@ function login() {
     </div>
 </template>
 <style scoped>
-    #container {
-        background: #595959;
-        background-image: url("/public/login_bg.jpg");
-        height: 100%;
-        width: 800%;
-        position: absolute;
-    }
-    #title {
-        text-align: center;
-        color: azure;
-        margin-top: 200px;
-    }
-    .input {
-        margin: 20px auto;
-        width: 500px;
-    }
+#container {
+   
+    background-image: url("/public/login_bg.jpg");
+    background-size: cover;      /* 填充整个容器 */
+    background-repeat: no-repeat; /* 不重复显示图片 */
+    background-position: center;   
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+#title {
+    text-align: center;
+    color: azure;
+    margin-top: 200px;
+}
+.input {
+    margin: 20px auto;
+    width: 500px;
+}
 </style>
