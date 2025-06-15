@@ -47,7 +47,6 @@ function login() {
     height: 100%;
     width: 800%;
     position: absolute;
-    border: 5px solid rgba(0, 0, 0, 0.5);
 }
 #title {
     text-align: center;
