@@ -15,7 +15,7 @@ const disabled = computed(()=>{
 function login() {
     store.registUserInfo(name.value, password.value)
     ElMessage({
-        message:'登录成功', 
+        message:'恭喜你，登录成功啦', 
         type:'success', 
         duration:3000
     })
