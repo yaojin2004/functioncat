@@ -15,7 +15,7 @@ const disabled = computed(()=>{
 function login() {
     store.registUserInfo(name.value, password.value)
     ElMessage({
-        message:'登录成功', 
+        message:'恭喜你，登录成功啦', 
         type:'success', 
         duration:3000
     })
@@ -47,10 +47,9 @@ function login() {
     background-size: cover;      /* 填充整个容器 */
     background-repeat: no-repeat; /* 不重复显示图片 */
     background-position: center;   
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
 #title {
     text-align: center;
