@@ -47,8 +47,8 @@ function login() {
     background-size: cover;      /* 填充整个容器 */
     background-repeat: no-repeat; /* 不重复显示图片 */
     background-position: center;   
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
     position: absolute;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
 }
