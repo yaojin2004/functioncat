@@ -27,13 +27,13 @@ function login() {
 <template>
     <div id="container">
         <div id="title">
-            <h1>电商后台管理系统</h1>
+            <h1>修改后的电商后台管理系统</h1>
         </div>
         <div class="input">
-            <el-input v-model="name" prefix-icon="User" placeholder="请输入用户名"></el-input>
+            <el-input v-model="name" prefix-icon="User" placeholder="请输入你的用户名"></el-input>
         </div>
         <div class="input">
-            <el-input v-model="password" prefix-icon="Lock" placeholder="请输入密码" auto-complete="new-password" show-password></el-input>
+            <el-input v-model="password" prefix-icon="Lock" placeholder="请输入你的密码" auto-complete="new-password" show-password></el-input>
         </div>
         <div class="input">
             <el-button @click="login" style="width:500px" type="primary" :disabled="disabled">登录</el-button>
@@ -45,7 +45,7 @@ function login() {
     background: #595959;
     background-image: url("/public/login_bg.jpg");
     height: 100%;
-    width: 100%;
+    width: 800%;
     position: absolute;
     border: 5px solid rgba(0, 0, 0, 0.5);
 }
