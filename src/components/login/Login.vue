@@ -41,20 +41,20 @@ function login() {
     </div>
 </template>
 <style scoped>
-#container {
-    background: #595959;
-    background-image: url("/public/login_bg.jpg");
-    height: 100%;
-    width: 800%;
-    position: absolute;
-}
-#title {
-    text-align: center;
-    color: azure;
-    margin-top: 200px;
-}
-.input {
-    margin: 20px auto;
-    width: 500px;
-}
+    #container {
+        background: #595959;
+        background-image: url("/public/login_bg.jpg");
+        height: 100%;
+        width: 800%;
+        position: absolute;
+    }
+    #title {
+        text-align: center;
+        color: azure;
+        margin-top: 200px;
+    }
+    .input {
+        margin: 20px auto;
+        width: 500px;
+    }
 </style>
